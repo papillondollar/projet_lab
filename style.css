@@ -213,6 +213,9 @@ section .option_list .option:hover{
     background-color: #f8d7da;
     color: #a4283a;
 }
+.option_list .option.disabled{
+    pointer-events: none;
+}
 .quiz_box footer {
     height: 60px;
     width: 100%;
